@@ -2,9 +2,9 @@ import cv2
 from PyQt6.QtWidgets import QWidget, QLabel, QVBoxLayout, QPushButton, QSpacerItem, QSizePolicy
 from PyQt6.QtGui import QImage, QPixmap, QFont
 from PyQt6.QtCore import QTimer, Qt
-from detection import detect_animals
-from alert import handle_alert
-from buzzer import connect_esp32, send_buzzer_signal
+from source.detection import detect_animals
+from source.alert import handle_alert
+from source.buzzer import connect_esp32, send_buzzer_signal
 
 class WildAnimalDetector(QWidget):
     def __init__(self):

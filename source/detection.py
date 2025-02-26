@@ -8,7 +8,7 @@ model = YOLO("C://Users//ragav//OneDrive//Documents//Wild_Animal_Detection//Data
 WILD_ANIMAL_CLASSES = {
     "elephant", "bear", "zebra", "giraffe", "lion", "tiger", "leopard", "cheetah", "wolf", "fox",
     "panther", "jaguar", "coyote", "hyena", "rhinoceros", "hippopotamus", "buffalo", "deer", "moose",
-    "bison","goat","cat","pig"
+    "bison","goat","pig",
 }
 
 def detect_animals(frame):

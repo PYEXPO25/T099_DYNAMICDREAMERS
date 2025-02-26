@@ -1,5 +1,5 @@
 from PyQt6.QtWidgets import QApplication
-from ui import WildAnimalDetector
+from source.ui import WildAnimalDetector
 
 app = QApplication([])
 window = WildAnimalDetector()
